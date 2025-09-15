@@ -2,7 +2,7 @@ import cv2
 # print(cv2.__version__)
 
 # loading the image
-image=cv2.imread('/home/sbkim21/Documents/python/OpenCVpractice/download/lena.png')
+image=cv2.imread('./download/lena.png')
 
 if image is not None:
     cv2.imwrite('output.png',image)
