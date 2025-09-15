@@ -11,8 +11,7 @@ Since the venv folder wasn't cloned, you need to recreate it on the Windows mach
     Create the new virtual environment for Windows:
     python -m venv venv
 
-    Activate the environment. The command is different on Windows:
-    .\venv\Scripts\activate
+    
 
     Install your dependencies. This is where the requirements.txt file you created comes in handy!
     pip install -r requirements.txt
