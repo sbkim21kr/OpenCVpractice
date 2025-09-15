@@ -6,7 +6,7 @@ image=cv2.imread('/home/sbkim21/Documents/python/OpenCVpractice/download/lena.pn
 if image is None:
     print("Error: Could not read image.")
 else:
-    cv2.imwrite('output.png',image)
+    cv2.imwrite('outpudddt.png',image)
     print("Image saved as output.png")
 
 
